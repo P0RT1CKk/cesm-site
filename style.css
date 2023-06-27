@@ -80,3 +80,57 @@ body{
     list-style-type: none;
     text-align: center;
 }
+
+/* Estilo para o rodapé */
+.rodape {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .rodape-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .rodape-coluna {
+    flex: 1 1 300px;
+  }
+  
+  .rodape-coluna h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .rodape-coluna ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rodape-coluna ul li {
+    margin-bottom: 5px;
+  }
+  
+  .redes-sociais li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .direitos-autorais {
+    margin-top: 20px;
+  }
+  
+  /* Estilo para ícones de redes sociais (exemplo usando Font Awesome) */
+  .redes-sociais a {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  
